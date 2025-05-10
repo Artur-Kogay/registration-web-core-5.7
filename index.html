@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="registration-page">
+        <section class="registration-page__illustration">
+            <img src="./assets/images/bg.jpg" alt="illustration image">
+            <img src="./assets/svg/logo.svg" alt="logo title image">
+        </section>
+        <section class="registration-page__content registration-content">
+            <h2 class="registration-content__title">Get iintoo it today</h2>
+            <p class="registration-content__subtitle">There is no charge or obligation upon registration.</p>
+            <div class="registration-content__links">
+                <button class="registration-content__link">
+                    <img src="./assets/svg/facebook.svg" alt="Facebook">
+                    <span>Register with Facebook</span> 
+                </button>
+                <button class="registration-content__link">
+                    <img src="./assets/svg/linkedin.svg" alt="Linkedin">
+                    <span> Register with Linkedin</span>
+                </button>
+            </div>
+            <div class="registration-content__divider">
+                <div></div>
+                <span>OR</span>
+                <div></div>
+            </div>
+            <form class="registration-content__form registration-form">
+                <div class="registration-form__fields">
+                    <div class="registration-form__field">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" placeholder=" ">
+                    </div>
+                    <div class="registration-form__field">
+                        <label for="phoneNumber">Phone</label>
+                        <input id="phoneNumber" type="number" placeholder=" "> 
+                    </div>
+                </div>
+                <h2 class="registration-form__title">What type of investor are you?</h2>
+                <p class="registration-form__subtitle">Select the type of investor you are below</p>
+                <div class="registration-form__investor-types">
+                    <div class="registration-form__option">
+                        <input name="investorType" id="individual" type="radio">
+                        <label for="individual">Individual</label>
+                        <div class="tooltip-wrapper">
+                            <img class="tooltip-logo" src="./assets/svg/info.svg" alt="information icon">
+                            <div class="tooltip-text">
+                                <p>I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="registration-form__option">
+                        <input name="investorType" id="business" type="radio">
+                        <label for="business">Business</label>
+                        <div class="tooltip-wrapper">
+                            <img class="tooltip-logo" src="./assets/svg/info.svg" alt="information icon">
+                            <div class="tooltip-text">
+                                <p>I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="registration-form__option">
+                        <input name="investorType" id="ira" type="radio">
+                        <label for="ira">IRA</label>
+                        <div class="tooltip-wrapper">
+                            <img class="tooltip-logo" src="./assets/svg/info.svg" alt="information icon">
+                            <div class="tooltip-text">
+                                <p>I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="registration-form__option">
+                        <input name="investorType" id="trust" type="radio">
+                        <label for="trust">Trust</label>
+                        <div class="tooltip-wrapper">
+                            <img class="tooltip-logo" src="./assets/svg/info.svg" alt="information icon">
+                            <div class="tooltip-text">
+                                <p>I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="registration-form__terms">
+                    <input type="checkbox">
+                    <span>I agree to the terms and receiving notifications from itoo</span>
+                    <a href="#">View full terms</a>
+                </div>
+                <button class="create-btn">
+                    Create account
+                </button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
